@@ -1,0 +1,26 @@
+{
+  "name": "Backend_Limurik",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "migrate": "db-migrate",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Nikita Ugolev",
+  "license": "ISC",
+  "dependencies": {
+    "db-migrate": "^1.0.0-beta.16",
+    "express": "^4.17.1",
+    "knex": "^0.95.14",
+    "pg": "^8.7.1",
+    "pg-promise": "^10.11.1",
+    "db-migrate-pg": "^1.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

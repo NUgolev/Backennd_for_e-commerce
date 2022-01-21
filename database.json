@@ -1,0 +1,12 @@
+{
+   "dev": {
+    "driver": "pg",
+    "user": "Admin",
+    "password": "Admin",
+    "host": "localhost",
+    "database": "Autoparts",
+    "port": "5432"
+  },
+
+  "other": "postgres://Admin:Admin@localhost:5432/test_db"
+}
